@@ -80,4 +80,4 @@ if __name__ == "__main__":
     from torch._dynamo.testing import rand_strided
     from torch._inductor.utils import print_performance
     arg0_1 = rand_strided((8, 256, 256), (65536, 256, 1), device='cuda:0', dtype=torch.float32)
-    print_performance(lambda: call([arg0_1]))F
+    print_performance(lambda: call([arg0_1]))
