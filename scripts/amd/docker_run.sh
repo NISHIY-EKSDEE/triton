@@ -14,9 +14,10 @@ WORK_DIR="/dockerx/$(basename $(pwd))"
 
 # IMAGE_NAME=nvcr.io/nvidia/pytorch:21.08-py3
 # IMAGE_NAME=rocm/pytorch:latest 
-IMAGE_NAME=rocm/pytorch:rocm5.4_ubuntu20.04_py3.8_pytorch_1.12.1
+# IMAGE_NAME=rocm/pytorch:rocm5.4_ubuntu20.04_py3.8_pytorch_1.12.1
 # IMAGE_NAME=rocm/pytorch:rocm4.3.1_ubuntu18.04_py3.6_pytorch_1.10.0
 # IMAGE_NAME=triton_rocm_20-52 # build this docker before running
+IMAGE_NAME=compute-artifactory.amd.com:5000/rocm-plus-docker/framework/compute-rocm-dkms-no-npi-hipclang:11433_ubuntu20.04_py3.10_pytorch_pyt_2.0_triton_c0e9a5f_14
 
 CONTAINER_NAME=triton
 
