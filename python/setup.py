@@ -14,7 +14,7 @@ from typing import NamedTuple
 from setuptools import Extension, setup
 from setuptools.command.build_ext import build_ext
 
-
+# Test test
 # Taken from https://github.com/pytorch/pytorch/blob/master/tools/setup_helpers/env.py
 def check_env_flag(name: str, default: str = "") -> bool:
     return os.getenv(name, default).upper() in ["ON", "1", "YES", "TRUE", "Y"]
